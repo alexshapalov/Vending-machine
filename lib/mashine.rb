@@ -17,7 +17,8 @@ class Mashine
 
   def choose_product
     p CHOOSE_PRODUCT
-    p AVAILABLE_PRICE
+    price_table
+    p RULES
     @product = gets.chomp.to_i
     return p TRY_AGAIN until valid_product?
     @price = all_products(@product)[0].values.first 
@@ -41,11 +42,9 @@ class Mashine
         p AVAILABLE_PRICE
       end 
       c = CoinHopper.new(@arr)
-    
-      p c.amount
-    end
-
-    p "Thank you. Take your product."
+      p "#{BALANCE} #{c.amount}C"
+    end    
+    p FINISH
   end
 
   def output_item
