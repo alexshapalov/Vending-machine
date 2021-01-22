@@ -3,7 +3,7 @@ module Messages
   GREETENG2 = "WELCOME TO VANDING MASHINE!".freeze
   GREETENG3 = "=========================="
   CHOOSE_PRODUCT = "Enter number of item or exit".freeze 
-  TRY_AGAIN = "Not found. Try again".freeze
+  TRY_AGAIN = "Not found. Try again. Use available numbrs".freeze
   START = "Please give me money".freeze 
   NOT_ENOUGHT = "Please add money.".freeze
   FINISH = "Thank you. Take your product.".freeze
@@ -11,6 +11,8 @@ module Messages
   NO_PDOUCT_SELECTED = "No product selected, please select the product".freeze
   RULES = "Use only coins: 25 50 100 200 300".freeze
   BALANCE =  "Current balance:".freeze
+  DO_NOT_HAVE_CHANGE  = "We do now have full change".freeze
+  YOUR_CHANGE = "Give you change:".freeze
 
   def greeting
     p GREETENG1

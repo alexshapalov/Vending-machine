@@ -10,7 +10,8 @@ module Product
     end
   end
 
-  # def valid_product?
-  #   COINS.include?(name)
-  # end
+  def valid_product?
+    tovar = [1,2,3]
+    tovar.include?(@product)
+  end
 end
