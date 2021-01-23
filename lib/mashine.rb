@@ -10,17 +10,16 @@ class Mashine
     greeting
     choose_product
     calculate
-    p FINISH
+    finish
   end
   
   private
 
   def choose_product
-    p CHOOSE_PRODUCT
-    price_table
-    p RULES
+    first_meassage
     @product = gets.chomp.to_i
-    return p TRY_AGAIN until valid_product?
+
+    return MESSAGE[:try_again] until valid_product?
   end
   
   def calculate
