@@ -1,8 +1,4 @@
 module Messages
-  GREETENG1 = "=========================="
-  GREETENG2 = "WELCOME TO VANDING MASHINE!".freeze
-  GREETENG3 = "=========================="
-
   MESSAGE = {
     start: "Please give me money",
     chose_product: "Enter number of item or exit",
@@ -13,14 +9,13 @@ module Messages
     rules: "Use only coins: 25 50 100 200 300",
     balance:  "Current balance:",
     do_not_gave_change: "We do now have full change",
-    your_change: "Give you change:"
-    finish: "Thank you. Take your product.",
+    your_change: "Give you change:",
   }.freeze 
   
   def greeting
-    p GREETENG1
-    p GREETENG2
-    p GREETENG3
+    p "=========================="
+    p "WELCOME TO VANDING MASHINE!"
+    p "=========================="
   end
 
   def first_meassage
@@ -40,6 +35,8 @@ module Messages
   end
 
   def finish
-    p MESSAGE[:finish]
+    p "=========================="
+    p "THANKS! TAKE YOUR PRODUCT"
+    p "=========================="
   end
 end

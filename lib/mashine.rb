@@ -19,7 +19,7 @@ class Mashine
     first_meassage
     @product = gets.chomp.to_i
 
-    return MESSAGE[:try_again] until valid_product?
+    return p MESSAGE[:try_again] until valid_product?
   end
   
   def calculate
