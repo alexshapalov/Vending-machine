@@ -8,8 +8,8 @@ module Messages
     no_product_selected: "No product selected, please select the product",
     rules: "Use only coins: 25 50 100 200 300",
     balance:  "Current balance:",
-    do_not_gave_change: "We do now have full change",
-    your_change: "Give you change:",
+    do_not_have_change: "We do now have a change",
+    your_change: "Take you change:",
   }.freeze 
   
   def greeting
