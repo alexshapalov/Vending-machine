@@ -3,7 +3,7 @@
 # require_relative "../lib/coin_hopper"
 # require_relative "../lib/messages"
 
-# # RSpec.describe Calculate do  
+# # RSpec.describe Calculate do
 # #   it 'calculate amoun' do
 # #     # get_money_from_console = 100
 # #     # mashine = Calculate.new.call(150)

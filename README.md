@@ -10,7 +10,7 @@ Please develop the machine in ruby.
 - Keep in mind that you need to manage the scenario where the item is out of stock or the machine does not have enough change to return to the customer. 
 - 25c 50c 1$ 2$ 5$
 
-## Result 
+## Screenshot
 
 <p><img src="public/github/screenshot.png" style="width: 700px"/></p>
 

@@ -1,4 +1,4 @@
-require_relative "coin"
+require_relative 'coin'
 
 class CoinHopper
   def initialize(coins = [])

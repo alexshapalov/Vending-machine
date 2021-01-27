@@ -12,7 +12,7 @@ class Mashine
     calculate
     finish
   end
-  
+
   private
 
   def choose_product
@@ -21,12 +21,12 @@ class Mashine
 
     return p MESSAGE[:try_again] until valid_product?
   end
-  
+
   def calculate
-    @calculate.call(get_price(@product))
+    @calculate.call(get_price)
   end
 
-  def get_price(product)
-    all_products(@product)[0].values.first 
+  def get_price
+    all_products(@product)[0].values.first
   end
 end

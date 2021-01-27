@@ -1,5 +1,5 @@
-require_relative "../lib/coin_hopper"
-require_relative "../lib/coin"
+require_relative '../lib/coin_hopper'
+require_relative '../lib/coin'
 
 RSpec.describe CoinHopper do
   it 'calculate amoun' do
