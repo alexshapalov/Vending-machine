@@ -19,7 +19,7 @@ class Calculate
 
   def start(price)
     while money_amount < price
-      p MESSAGE[:not_enought]
+      puts MESSAGE[:not_enought]
       @coin.value = gets.to_i
       coin_validation(@coin)
       show_balance
@@ -31,16 +31,15 @@ class Calculate
   def give_change_to_customer(moneyin, price)
     change = moneyin - price
 
-    p MESSAGE[:do_not_have_change] if BANK_LIMIT < change
-    p MESSAGE[:your_change]
+    puts MESSAGE[:do_not_have_change] if BANK_LIMIT < change
+    puts MESSAGE[:your_change]
 
     return p BANK_LIMIT if change >= BANK_LIMIT
-
-    p give_change = BANK_LIMIT - change
+    puts give_change = BANK_LIMIT - change
   end
 
   def coin_validation(coin)
-    return p MESSAGE[:rules] until coin.valid?
+    return puts MESSAGE[:rules] until coin.valid?
 
     @arr << coin
   end
@@ -50,6 +49,6 @@ class Calculate
   end
 
   def show_balance
-    p "#{MESSAGE[:balance]} #{money_amount}c"
+    puts "#{MESSAGE[:balance]} #{money_amount}c"
   end
 end
