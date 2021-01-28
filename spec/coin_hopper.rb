@@ -1,5 +1,16 @@
-require_relative '../lib/coin_hopper'
-require_relative '../lib/coin'
+# require '../lib/vanding/coin_hopper.rb'
+require_relative '../lib/vanding/mashine/coin'
+# require_relative '../lib/vanding/mashine/coin_hopper'
+# require_relative 'vanding/mashine/coin_hopper'
+# require_relative '../lib/coin_hopper'
+# require_relative 'mashine/coin_hopper'
+# require_relative '../vanding/mashine/coin_hopper'
+
+
+# require_relative "../lib/machine"
+
+# require 'vanding/mashine/coin'
+# require 'mashine'
 
 RSpec.describe CoinHopper do
   it 'calculate amoun' do

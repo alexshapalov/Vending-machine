@@ -12,5 +12,3 @@ require_relative "../lib/machine"
 
 require "irb"
 IRB.start(__FILE__)
-
-Vending::Mashine.start
