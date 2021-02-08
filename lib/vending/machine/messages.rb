@@ -13,9 +13,9 @@ module Messages
   }.freeze
 
   def greeting
-    p '=========================='
-    p 'WELCOME TO VANDING MASHINE!'
-    p '=========================='
+    p '@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@'
+    p '@         WELCOME TO VANDING MASHINE!             @'
+    p '@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@'
   end
 
   def first_meassage

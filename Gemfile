@@ -1,4 +1,8 @@
-source 'https://rubygems.org'
+source "https://rubygems.org"
 
-gem 'rspec'
+# Specify your gem's dependencies in foodie.gemspec
+gemspec
+
+gem "rake", "~> 12.0"
+gem "rspec", "~> 3.10"
 gem 'rubocop', require: false
