@@ -34,7 +34,7 @@ class Calculator
     puts MESSAGE[:do_not_have_change] if BANK_LIMIT < change
     puts MESSAGE[:your_change]
 
-    return p BANK_LIMIT if change >= BANK_LIMIT
+    return puts BANK_LIMIT if change >= BANK_LIMIT
     puts give_change = BANK_LIMIT - change
   end
 

@@ -1,6 +1,6 @@
 class Machine
   include Messages
-  include Product
+  include ProductList
 
   def initialize
     @calculator = Calculator.new
@@ -17,9 +17,7 @@ class Machine
 
   def choose_product
     first_meassage
-    @product = gets.chomp.to_i
-
-    return puts MESSAGE[:try_again] until valid_product?
+    @product = gets.chomp.to_sym
   end
 
   def calculator
@@ -27,6 +25,6 @@ class Machine
   end
 
   def get_price
-    all_products(@product)[0].values.first
+    return_price_of_product(@product)
   end
 end

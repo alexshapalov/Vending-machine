@@ -41,7 +41,7 @@ Run Vending-machine with this command:
 - Ask user about buy next item
 - Add tests for CLI
 - Add tests for Item non in stock 
-
+- Change name for Calculator class
 ## License
 
 The app is available as open-source under the terms of the [MIT License](http://opensource.org/licenses/MIT).

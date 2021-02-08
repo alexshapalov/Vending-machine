@@ -3,7 +3,7 @@
 require_relative 'vending/machine/coin_hopper.rb'
 require_relative 'vending/machine/messages'
 require_relative 'vending/machine/coin'
-require_relative 'vending/machine/product'
+require_relative 'vending/machine/product_list'
 require_relative 'vending/machine/machine'
 require_relative 'vending/machine/calculator'
 
