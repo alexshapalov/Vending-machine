@@ -5,8 +5,10 @@ module ProductList
     Fanta: 300,
   }
 
+  INVALID_NAME = 'Please, use only valid name: Cola'.freeze
+
   def return_price_of_product(name)
-    return "false" until PRODUCTS.include?(name)
+    return puts INVALID_NAME until PRODUCTS.include?(name)
     PRODUCTS.fetch(name)
   end
 end

@@ -2,9 +2,8 @@ module Messages
   MESSAGE = {
     start: 'Please give me money',
     chose_product: 'Enter name of the prodcut. Example: Cola',
-    try_again: 'Not found. Try again. Use available numbrs',
     not_enought: 'Please add money.',
-    invalid_valur: 'Please, use only valid coins: 1 2',
+    invalid_name: 'Please, use only valid name: Cola',
     no_product_selected: 'No product selected, please select the product',
     rules: 'Use only coins: 25 50 100 200 300',
     balance: 'Current balance:',
