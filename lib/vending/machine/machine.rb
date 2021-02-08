@@ -3,13 +3,13 @@ class Machine
   include Product
 
   def initialize
-    @calculate = Calculate.new
+    @calculator = Calculator.new
   end
 
   def start
     greeting
     choose_product
-    calculate
+    calculator
     finish
   end
 
@@ -22,8 +22,8 @@ class Machine
     return puts MESSAGE[:try_again] until valid_product?
   end
 
-  def calculate
-    @calculate.call(get_price)
+  def calculator
+    @calculator.call(get_price)
   end
 
   def get_price

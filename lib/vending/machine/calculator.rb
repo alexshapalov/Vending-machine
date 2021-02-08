@@ -1,6 +1,6 @@
 require_relative 'messages'
 
-class Calculate
+class Calculator
   include Messages
 
   BANK_LIMIT = 100

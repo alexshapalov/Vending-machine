@@ -13,7 +13,7 @@ require_relative '../lib/vanding/mashine/coin'
 # require 'mashine'
 
 RSpec.describe CoinHopper do
-  it 'calculate amoun' do
+  it 'calculator amoun' do
     coin1 = Coin.new([25])
     coin2 = Coin.new([50])
     coin3 = Coin.new([100])

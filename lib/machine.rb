@@ -5,7 +5,7 @@ require_relative 'vending/machine/messages'
 require_relative 'vending/machine/coin'
 require_relative 'vending/machine/product'
 require_relative 'vending/machine/machine'
-require_relative 'vending/machine/calculate'
+require_relative 'vending/machine/calculator'
 
 # module Vending
 #   module Machine
