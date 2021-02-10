@@ -12,7 +12,6 @@ require_relative 'vending/machine/calculator'
 #     class Error < StandardError; end
     
 #     def self.start
-#       p 'sssss'
 #       # Mashine.new.start
 #     end
 #   end
